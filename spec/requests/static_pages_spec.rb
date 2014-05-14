@@ -27,7 +27,7 @@ subject { page }
   end
 
   describe "About page" do
-    before { visit about_path click_link "About" }
+    before { visit about_path }
 
     let(:heading)    { 'About' }
     let(:page_title) { 'About Us' }
